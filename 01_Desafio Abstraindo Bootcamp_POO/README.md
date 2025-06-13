@@ -50,11 +50,11 @@ O projeto está organizado em uma única classe principal com as demais classes 
 
    2. Compile o arquivo no terminal:
       ```bash
-    javac AbstraindoBootcampPOO.java
+      javac AbstraindoBootcampPOO.java
 
    3. Execute o programa:
       ```bash
-    java AbstraindoBootcampPOO
+      java AbstraindoBootcampPOO
 
 ---
 
