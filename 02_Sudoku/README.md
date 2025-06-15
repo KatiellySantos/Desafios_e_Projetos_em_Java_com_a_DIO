@@ -4,7 +4,7 @@ Este é um jogo de Sudoku feito em Java, jogado no console! O objetivo é comple
 
 ---
 
-✅ Funcionalidades
+## ✅ Funcionalidades
 
 - Geração aleatória de números válidos no tabuleiro.
 
@@ -60,16 +60,16 @@ Este é um jogo de Sudoku feito em Java, jogado no console! O objetivo é comple
 
 ## ▶️ Como executar
 
-1. Salve o arquivo como Sudoku.java
-  ```bash
-   javac Sudoku.java
+   1. Salve o arquivo como Sudoku.java
+      ```bash
+      javac Sudoku.java
 
-2. Compile:
-  ```bash
-   javac Sudoku.java
+   2. Compile:
+      ```bash
+      javac Sudoku.java
 
-▶️ Execute:
+   3. Execute:
+      ```bash
+      java Sudoku
 
-java Sudoku
-
-🎮 Siga as instruções no console para jogar
+   4. Siga as instruções no console para jogar
