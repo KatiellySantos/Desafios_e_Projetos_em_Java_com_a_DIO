@@ -1,68 +1,75 @@
-## Projeto Sudoku em Java
+## 🧩 Projeto Sudoku em Java
 
-Este projeto é uma implementação simples de um jogo Sudoku no console, em Java. O objetivo é fornecer um tabuleiro parcialmente preenchido aleatoriamente, onde o jogador pode inserir números válidos seguindo as regras do Sudoku.
-Funcionalidades
-
-    - Geração aleatória de um tabuleiro com números válidos em posições aleatórias.
-
-    - Impressão do tabuleiro no console, com divisão visual dos blocos 3x3.
-
-    - Entrada de jogadas pelo usuário, validando linhas, colunas e blocos.
-
-    - Verificação automática de vitória quando o tabuleiro é completamente preenchido.
-
-    - Permite ao usuário sair do jogo a qualquer momento digitando 0.
+Este é um jogo de Sudoku feito em Java, jogado no console! O objetivo é completar o tabuleiro com números de 1 a 9 sem repetir valores em linhas, colunas ou blocos 3x3. O jogo começa com algumas posições preenchidas aleatoriamente para você resolver 🧠✨
 
 ---
 
-## Passo a passo do código
+✅ Funcionalidades
 
-1. Inicialização do tabuleiro
+- Geração aleatória de números válidos no tabuleiro.
 
-    - O tabuleiro é representado por uma matriz 9x9 de inteiros (int[][] tabuleiro), inicialmente zerada.
+- Impressão organizada do tabuleiro no terminal.
 
-    - O método gerarTabuleiroAleatorio(int quantidade) preenche o tabuleiro com uma quantidade definida de números aleatórios válidos.
+- Interação com o usuário via teclado.
 
-2. Geração aleatória de números válidos
+- Validação de jogadas (linha, coluna e bloco).
 
-    - O método tenta preencher o tabuleiro com números aleatórios, verificando se cada número pode ser inserido naquela posição (linha, coluna e bloco 3x3).
+- Verificação de vitória ao completar o tabuleiro.
 
-    - Usa a função podeColocarNumero(linha, coluna, numero) para validar as jogadas.
-
-    - Esse processo continua até que o número de posições preenchidas atinja a quantidade desejada (exemplo: 20).
-
-3. Impressão do tabuleiro
-
-    - O método imprimirTabuleiro() mostra o tabuleiro no console com linhas e colunas separadas para facilitar a visualização.
-
-    - Números vazios são exibidos como pontos (.).
-
-4. Entrada do usuário e validação
-
-    - O programa pede que o usuário digite a linha, a coluna e o número que deseja inserir.
-
-    - Entrada 0 na linha encerra o jogo.
-
-    - O programa verifica se a posição está vazia e se o número é válido para aquela posição.
-
-    - Caso a jogada seja válida, o número é inserido no tabuleiro; caso contrário, uma mensagem de erro é mostrada.
-
-5. Verificação de vitória
-
-    - Após cada jogada válida, o método tabuleiroCompleto() verifica se o tabuleiro está totalmente preenchido.
-
-    - Se estiver, o programa parabeniza o jogador e encerra o jogo.
-
+- Opção de sair do jogo a qualquer momento.
+  
 ---
 
-## Como executar
+## 👨‍🏫 Passo a passo do código
 
-    Salve o arquivo como Sudoku.java.
+1️⃣ Inicialização do Tabuleiro
 
-    Compile no terminal com:
-    javac Sudoku.java
+- O tabuleiro é uma matriz 9x9 (int[][] tabuleiro).
 
-    Execute o programa:
-    java Sudoku
+- Começa todo zerado.
 
-    Siga as instruções no console para jogar.
+- A função gerarTabuleiroAleatorio(quantidade) preenche aleatoriamente algumas posições com números válidos.
+
+2️⃣ Geração Aleatória
+
+- A cada tentativa, é escolhida uma posição vazia.
+
+- Um número aleatório de 1 a 9 é testado usando podeColocarNumero().
+
+- Se válido, é inserido no tabuleiro.
+
+3️⃣ Impressão no Console
+
+- O método imprimirTabuleiro() mostra o tabuleiro com divisórias.
+
+- Números vazios são exibidos como . para facilitar a leitura visual.
+
+4️⃣ Jogada do Usuário
+
+- O programa pede linha, coluna e número.
+
+- Se digitar 0, o jogo encerra.
+
+- A jogada é validada e, se correta, é inserida no tabuleiro.
+
+5️⃣ Verificação de Vitória
+
+- Após cada jogada válida, o jogo checa se o tabuleiro está completo com tabuleiroCompleto().
+
+- Se estiver, uma mensagem de parabéns é exibida 🎉
+
+## ▶️ Como executar
+
+1. Salve o arquivo como Sudoku.java
+  ```bash
+   javac Sudoku.java
+
+2. Compile:
+  ```bash
+   javac Sudoku.java
+
+▶️ Execute:
+
+java Sudoku
+
+🎮 Siga as instruções no console para jogar
