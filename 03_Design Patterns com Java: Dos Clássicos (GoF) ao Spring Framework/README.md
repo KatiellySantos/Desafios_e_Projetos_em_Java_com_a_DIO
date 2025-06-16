@@ -33,10 +33,8 @@ Neste projeto simples, criamos uma classe chamada `Configuracao`, responsável p
 ---
 
 ## 📁 Estrutura de pastas
-
-com.carla.singleton
-├── Configuracao.java
-└── Main.java
+  
+   ![image](https://github.com/user-attachments/assets/39667b07-67f2-4bdc-9909-95e7cf4f8100)
 
 ---
 
@@ -47,17 +45,15 @@ com.carla.singleton
    javac com/carla/singleton/*.java
 
 2. Execute a classe principal:
-
+   ```bash
    java com.carla.singleton.Main
 
 ---
 
 ## ✅ Saída esperada
-
+   ```bash
 Sistema: Sistema de Cadastro
 Versão: 1.0.0
 Versão (segunda instância): 1.1.0
-
-
 
 
