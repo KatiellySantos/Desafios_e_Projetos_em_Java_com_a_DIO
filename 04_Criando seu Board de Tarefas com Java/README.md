@@ -32,15 +32,11 @@ board-tarefas-java/
 
 ## 🖥️ Como Executar
 
-1. Clone o repositório
-```bash
-git clone https://github.com/seu-usuario/board-tarefas-java.git
-```
-2. Compile os arquivos
+1. Compile os arquivos
 ```bash
 javac src/Main.java src/models/*.java src/services/*.java
 ```
-3. Execute o projeto
+2. Execute o projeto
 ```bash
 java -cp src Main
 ```
